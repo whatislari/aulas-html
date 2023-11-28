@@ -1,0 +1,16 @@
+body{
+    background-color: #ffdefd;
+    
+}
+.alinhar{
+    text-align: center;
+}
+.alinharmais{
+    text-align: left;
+}
+*{
+    font-family:Candara; 
+}
+.cordalinha{
+    color: black;
+}

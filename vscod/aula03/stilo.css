@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+
+/* AQUI EU TO APLICANDO COISAS DIFERENTES NA OL */
+
+.stilo1{
+    list-style-type: none;
+}
+.stilo2{
+    list-style-type: disc;
+}
+.stilo3{
+    list-style-type: circle;
+}
+.stilo4{
+    list-style-type: square;
+}
+.stilo5{
+    list-style-type: decimal;
+}
+.stilo6{
+    list-style-type: lower-roman;
+}
+.stilO7{
+    list-style-type: upper-roman;
+}
+.stilo8{
+    list-style-type: lower-alpha;
+}
+.stilo9{
+    list-style-type: upper-alpha;
+}
+.stilo10{
+    list-style-type: lower-greek;
+}
+
+/* AGORA EU TO APLICANDO COISAS DIFERENTES NA UL */
+
+/* .estilo1{
+    list-style: inside url("among.gif");
+}
+.estilo2{
+    list-style: inside url("urso.gif");
+}   
+.estilo3{
+    list-style: inside url("et.gif");
+}
+.estilo4{
+    list-style: inside url("perereca.gif");
+}
+.estilo5{
+    list-style: inside url("robo.gif");
+}
+.estilo6{
+    list-style: inside url("stitch.gif");
+}   
+.estilo7{
+    list-style: inside url("sponjinha.gif");
+}
+.estilo8{
+    list-style: inside url("jogador.gif");
+}
+.estilo9{
+    list-style: inside url("banana.gif");
+}   
+.estilo10{
+    list-style: inside url("chapeuzinho.gif");
+} */
+
+
+
