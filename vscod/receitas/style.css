@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Candara;  
+
+}
+.none{   
+    list-style-type: none;        
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#logo {
+    max-width: 100px; /* aqui eu ajusto o tamnaho da imagem */
+}
+
+#page1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.recipe {
+    text-align: center;
+    margin: 10px;
+}
+
+.recipe img {
+    max-width: 200px; 
+}
+
+#map {
+    text-align: center;
+    padding: 20px;
+}
