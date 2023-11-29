@@ -12,11 +12,11 @@ body {
 #header {
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 #logo {
-    max-width: 100px; /* aqui eu ajusto o tamnaho da imagem */
+    max-width: 90px; /* aqui eu ajusto o tamnaho da imagem */
 }
 
 #page1 {
@@ -25,17 +25,29 @@ body {
     justify-content: space-around;
     padding: 20px;
 }
-
+.dds{
+    text-align: center;
+}
 .recipe {
     text-align: center;
     margin: 10px;
 }
 
 .recipe img {
-    max-width: 200px; 
+    max-width: 400px; 
 }
 
 #map {
+    background-color: rgb(183, 183, 187);
     text-align: center;
     padding: 20px;
+}
+.img-conteiner{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
 }
