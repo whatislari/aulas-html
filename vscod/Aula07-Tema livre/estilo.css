@@ -42,6 +42,11 @@ body{
     float: left;
 }
 
+#banner2{
+    height: 400px;
+    background-color: #7E1921;
+}
+
 #logo{
     height: 130px;
     width: 200px;
