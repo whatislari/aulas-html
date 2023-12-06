@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: rgb(83, 189, 255);
+}
+.divisao{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(253, 69, 170);
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    font-size: 18pt;
+}
+#div01{
+    top: 25px;
+    left: 25px;
+    background-color: rgb(255, 197, 72)
+}
+#div02{
+    top: 25px;
+    right: 25px; 
+    background-color: rgb(93, 233, 151);
+}
+#div03{
+    left: 25px;
+    bottom: 25px;
+    background-color: rgb(245, 108, 154);
+}
+#div04{
+    right: 25px;
+    bottom: 25px;
+    background-color: rgb(138, 108, 245);
+}
+
+
+#div05{
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#total{
+    width: 1000px;
+    height: 2000px;
+    margin: auto;
+        position: relative;
+    background-color:rgb(116, 183, 224);
+}
+#voltar{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: mediumorchid;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
