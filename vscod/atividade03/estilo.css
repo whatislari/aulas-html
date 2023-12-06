@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+#total{
+    width: 1199.94px;
+    height: 2412px;
+    margin: auto;
+    position: relative;
+    background-color:rgb(116, 183, 224);
+}
+.divisao{
+    height: 80px;
+    width: 1199.94px;
+}
+#posição1{
+    top: 60px;
+    left: 120px;
+    background-color: rgb(0, 0, 0)
+}
+#meio{
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
