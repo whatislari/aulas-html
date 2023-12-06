@@ -13,6 +13,10 @@ body{
     margin: auto;
     width: 1300px;
 }
+.hover img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out;
+}
 #topo{
     height: 140px;
     padding-top: 10px;
@@ -20,6 +24,10 @@ body{
 }
 #banner{
     height: 400px;
+    background-color: #7E1921;
+}
+#banner2{
+    height: 60px;
     background-color: #7E1921;
 }
 #conteudo{
@@ -32,7 +40,8 @@ body{
     background-color: #7E1921;
 }
 #rodape{
-    height: 190px;
+    height: 400px;
+    width: 1300px;
     padding-top: 10px;
     background-color: #7E1921;
 }
@@ -75,9 +84,12 @@ body{
     background-color: #e3e3e3;
     padding: 10px;
 }
-
+#footer{
+    height: 20px;
+}
 #redesocialR{
     height: 180px;
     width: 420px;
     background-color: #e3e3e3;
 }
+
