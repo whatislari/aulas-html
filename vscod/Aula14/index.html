@@ -1,62 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- https://www.behance.net/gallery/187398579/Blockchain-Security-Services-White-VersionWebsite?tracking_source=search_projects&l=99 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- https://www.behance.net/gallery/187398579/Blockchain-Security-Services-White-VersionWebsite?tracking_source=search_projects&l=99 -->
 </head>
+
 <body>
-    <div class="header">
-        <h1>nome</h1>
-        <p>Frase de efeito...</p>
+
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Meu Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Página Inicial <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      
-      <div class="topnav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#" style="float:right">Link</a>
+    </nav>
+
+    <!-- Quadrado Rosa -->
+    <div class="pink-square">
+      <div class="container">
+        <h2 class="text-white">Quadrado Rosa</h2>
       </div>
-      
+    </div>
+
+    <!-- Seção de Serviços -->
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
       <div class="row">
-        <div class="leftcolumn">
-          <div class="card">
-            <h2>Titulo</h2>
-            <h5>Descrição do Titulo, Mês e dia, ano</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Algum texto</p>
-          </div>
-          <div class="card">
-            <h2>Titulo</h2>
-            <h5>Descrição do Titulo, Mês e dia, ano</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Algum texto</p>
+        <div class="col-md-4">
+          <div class="pink-square">
+            <h5 class="text-white">Serviço 1</h5>
           </div>
         </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>Titulo</h2>
-                <h5>Descrição do Titulo, Mês e dia, ano</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p></p>
-              </div>
-          <div class="card">
-            <h3>Popular Post</h3>
-            <div class="fakeimg"><p></p></div>
-            <div class="fakeimg"><p></p></div>
-            <div class="fakeimg"><p></p></div>
+        <div class="col-md-4">
+          <div class="pink-square">
+            <h5 class="text-white">Serviço 2</h5>
           </div>
-          <div class="card">
+        </div>
+        <div class="col-md-4">
+          <div class="pink-square">
+            <h5 class="text-white">Serviço 3</h5>
           </div>
         </div>
       </div>
-      
-      <div class="footer">
-        <h2>Footer</h2>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light text-center py-4 mt-5">
+      <div class="container">
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
       </div>
+    </footer>
+
+    <!-- Adicione os scripts do Bootstrap (jQuery e Popper.js são necessários) -->
     <script src="js/bootstrap.js"></script>
-</body>
+
+
+  </body>
+
 </html>
