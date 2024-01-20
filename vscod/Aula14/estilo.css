@@ -1,8 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  font-size: 18px;
+}
+
 .pink-square {
-  background-color: #FF69B4; /* Cor rosa */
+  background-color: #FF1493; /* Cor rosa modificada */
   height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  color: #fff; /* Cor do texto */
+}
+
+.carousel-item {
+  height: 300px;
+  width: 200px;
+}
+
+.carousel-item:nth-child(1) .pink-square {
+  background-color: #FF69B4; /* Rosa */
+}
+
+.carousel-item:nth-child(2) .pink-square {
+  background-color: #FF1493; /* Rosa mais intenso */
+}
+
+.carousel-item:nth-child(3) .pink-square {
+  background-color: #FFC0CB; /* Rosa claro */
+}
+
+footer {
+  background-color: #343a40; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto do rodapé */
+  font-size: 16px;
+  padding: 20px 0;
 }
