@@ -1,62 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- https://www.behance.net/gallery/187398579/Blockchain-Security-Services-White-VersionWebsite?tracking_source=search_projects&l=99 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- https://www.behance.net/gallery/187398579/Blockchain-Security-Services-White-VersionWebsite?tracking_source=search_projects&l=99 -->
 </head>
+
 <body>
-    <div class="header">
-        <h1>nome</h1>
-        <p>Frase de efeito...</p>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container p-0">
+          <a class="navbar-brand" href="#">Meu Site</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Página Inicial <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contato</a>
+                  </li>
+              </ul>
+          </div>
       </div>
-      
-      <div class="topnav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#" style="float:right">Link</a>
-      </div>
-      
+  </nav>
+
+  <!-- Contêiner principal -->
+  <div class="container">
+
+      <!-- Quadrado Rosa -->
       <div class="row">
-        <div class="leftcolumn">
-          <div class="card">
-            <h2>Titulo</h2>
-            <h5>Descrição do Titulo, Mês e dia, ano</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Algum texto</p>
+          <div class="col-12 pink-square">
+              <h2>Quadrado Rosa</h2>
           </div>
-          <div class="card">
-            <h2>Titulo</h2>
-            <h5>Descrição do Titulo, Mês e dia, ano</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Algum texto</p>
+      </div>
+
+      <!-- Seção de Serviços -->
+      <div class="row mt-5">
+          <div class="col-12">
+              <h2 class="text-center mb-4">Nossos Serviços</h2>
           </div>
-        </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>Titulo</h2>
-                <h5>Descrição do Titulo, Mês e dia, ano</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p></p>
+          <div class="col-md-4">
+              <div class="pink-square">
+                  <h5>Serviço 1</h5>
               </div>
-          <div class="card">
-            <h3>Titulo</h3>
-            <div class="fakeimg"><p></p></div>
-            <div class="fakeimg"><p></p></div>
-            <div class="fakeimg"><p></p></div>
           </div>
-          <div class="card">
+          <div class="col-md-4">
+              <div class="pink-square">
+                  <h5>Serviço 2</h5>
+              </div>
           </div>
+          <div class="col-md-4">
+              <div class="pink-square">
+                  <h5>Serviço 3</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="pink-square">
+                        <h5>Item 1</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="pink-square">
+                        <h5>Item 2</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="pink-square">
+                        <h5>Item 3</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
+    </div>
+</div>
+</div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+      <div class="container">
+          <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
       </div>
-      
-      <div class="footer">
-        <h2>Footer</h2>
-      </div>
+  </footer>
+
+    <!-- Adicione os scripts do Bootstrap (jQuery e Popper.js são necessários) -->
     <script src="js/bootstrap.js"></script>
-</body>
+
+
+  </body>
+
 </html>
