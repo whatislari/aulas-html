@@ -50,3 +50,20 @@ body {
     color: #543838;
     margin: 0; 
 }
+
+.tx
+{
+    font-family: Honey Cute;
+    font-size: 19pt;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.55pt;
+    color: #543838;
+    margin: 0; 
+}
+.segunda-imagem {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
