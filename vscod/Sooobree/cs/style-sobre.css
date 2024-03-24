@@ -63,7 +63,8 @@ body {
     color: #543838;
     margin: 0; 
 }
-.segunda-imagem {
+.segunda-imagem 
+{
     max-width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner */
     height: auto; /* Mantém a proporção da imagem */
 }
